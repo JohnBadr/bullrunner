@@ -261,7 +261,7 @@ def run_all_systems():
 
 
 if __name__ == "__main__":
-    # run_all_systems()
-    precompute_system(2343)
-    print("Precomputation complete for system 2343. Check the database for results.")
+    run_all_systems()
+    # precompute_system(2343)
+    # print("Precomputation complete for system 2343. Check the database for results.")
     conn.close()
